@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_verlof"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Verlofstatus" />
+        <item
+            android:id="@+id/nav_melding"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Meldingen" />
+        <item
+            android:id="@+id/nav_idee"
+            android:icon="@android:drawable/btn_star"
+            android:title="Idee" />
+        <item
+        android:id="@+id/nav_vraag"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Vraag" />
+    </group>
+
+    <item
+        android:id="@+id/nav_manage"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Settings" />
+
+
+</menu>
